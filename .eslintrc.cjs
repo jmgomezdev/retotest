@@ -10,6 +10,9 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
+  globals: {
+    Bun: true,
+  },
   rules: {
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": "warn",
